@@ -3,6 +3,12 @@
     height: 600px;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="box1"] {
+    height: 300px;
+  }
+
 .box2 {
     background-color: blueviolet;
     height: 300px;
