@@ -1,0 +1,15 @@
+.box1 {
+    background-color: chartreuse;
+    height: 600px;
+}
+
+.box2 {
+    background-color: blueviolet;
+    border: solid palegoldenrod 1px;
+    height: 300px;
+}
+
+.box3 {
+    background-color: palevioletred;
+    height: 600px;
+}
