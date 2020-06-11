@@ -1,178 +1,22 @@
-{% load static%}
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{%static 'css/bootstrap.css' %}">
-    <script src="https://kit.fontawesome.com/6f6285192f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="{%static 'css/main.css' %}">
-
-    <title>Asif-blog</title>
-</head>
+{% include "head.html" %}
 
 <body>
-    <!-- nav bar starts here -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/">Logo Goes here</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-                    Search
-                </button>
-            </form>
-        </div>
-    </nav>
-    <!--Navigation ends here-->
+    {% include "header.html" %}
 
     {% block home %}
-    {% endblock home%}
+    {% endblock home %}
+    {% block blogpost %}
+    {% endblock blogpost %}
 
 
-
-
-    <!-- pagination bar is here -->
-    <nav aria-label="Page navigation example">
-        <ul class="pagination justify-content-center">
-            <li class="page-item disabled">
-                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-            </li>
-            <li class="page-item"><a class="page-link active" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item">
-                <a class="page-link" href="#">Next</a>
-            </li>
-        </ul>
-    </nav>
-    <!-- Footer -->
-    <footer class="page-footer font-small cyan darken-3 border-top bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 py-3">
-                    <div class="text-center">
-                        <a class="fb-ic">
-                            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x">
-                            </i>
-                        </a>
-                        <a class="tw-ic">
-                            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x">
-                            </i>
-                        </a>
-                        <a class="gplus-ic">
-                            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x">
-                            </i>
-                        </a>
-                        <a class="li-ic">
-                            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x">
-                            </i>
-                        </a>
-                        <a class="ins-ic">
-                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x">
-                            </i>
-                        </a>
-                        <a class="pin-ic">
-                            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid text-center text-md-left my-4">
-                <div class="row">
-                    <div class="col-md-6 mt-md-0 mt-3">
-                        <h5 class="text-uppercase">Footer Content</h5>
-                        <p>
-                            Here you can use rows and columns to organize your footer
-                            content.
-                        </p>
-                    </div>
-
-                    <hr class="clearfix w-100 d-md-none pb-3" />
-
-                    <div class="col-md-3 mb-md-0 mb-3">
-                        <h5 class="text-uppercase">Links</h5>
-
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#!">Link 1</a>
-                            </li>
-                            <li>
-                                <a href="#!">Link 2</a>
-                            </li>
-                            <li>
-                                <a href="#!">Link 3</a>
-                            </li>
-                            <li>
-                                <a href="#!">Link 4</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-md-3 mb-md-0 mb-3">
-                        <h5 class="text-uppercase">Links</h5>
-
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#!">Link 1</a>
-                            </li>
-                            <li>
-                                <a href="#!">Link 2</a>
-                            </li>
-                            <li>
-                                <a href="#!">Link 3</a>
-                            </li>
-                            <li>
-                                <a href="#!">Link 4</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer-copyright text-center py-3 bg-dark text-light">
-            Made with <i class="fa fa-heart"></i> by Asif Ikbal Blogs © 2020 Copyright
-        </div>
-    </footer>
-    <!-- Footer -->
+    {% include "footer.html" %}
     <!--Required scripts -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
-    <script src="{%static 'js/bootstrap.js' %}"></script>
+    {% include "scripts.html" %}
 </body>
-</body>
+
 
 </html>
