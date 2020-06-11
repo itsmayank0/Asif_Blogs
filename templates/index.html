@@ -1,251 +1,287 @@
-{% extends "base.html"%}
+{% extends "base.html" %}
+
 {% block home %}
-<!-- featued box -->
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-6 col-xs-12 box1">
-            One of three columns
+
+
+<!--Main layout-->
+<main class="mt-5 pt-5">
+  <div class="container">
+    <!--Section: Jumbotron-->
+    <section class="card wow fadeIn" style="
+            background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);
+          ">
+      <!-- Content -->
+      <div class="card-body text-white text-center py-5 px-5 my-5">
+        <h1 class="mb-4">
+          <strong>Welcome to Asif-BLog</strong>
+        </h1>
+        <p class="mb-4">
+          <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+            quisquam nihil voluptatem totam, soluta a saepe ducimus, impedit
+            possimus corrupti aperiam praesentium placeat repudiandae. Sunt
+            ut labore nihil inventore impedit.</strong>
+        </p>
+        <a target="_blank" href="" class="btn btn-outline-white btn-lg">
+          KNOW MORE
+          <i class="fas fa-youtube-play ml-2"></i>
+        </a>
+      </div>
+      <!-- Content -->
+    </section>
+    <!--Section: Jumbotron-->
+
+    <hr class="my-5" />
+
+    <!--Section: Cards-->
+    <section class="text-center">
+      <!--Grid row-->
+      <div class="row mb-4 wow fadeIn">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4">
+          <!--Card-->
+          <div class="card">
+            <!--Card image-->
+            <div class="view overlay">
+              <div class="embed-responsive embed-responsive-16by9 rounded-top">
+                <iframe class="embed-responsive-item" src="img\Blog Images\AdobeStock_329096936_Video_HD_Preview.mov"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title">My YouTube Channel</h4>
+              <!--Text-->
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Reiciendis nisi ad pariatur ducimus labore est quas fugit,
+                sint nulla repellat repudiandae saepe aliquid aut explicabo
+                necessitatibus dolore doloremque culpa consequuntur.
+              </p>
+              <p class="card-text">
+                <strong>5 minutes, a few clicks and... done. You will be
+                  surprised at how easy it is.</strong>
+              </p>
+            </div>
+          </div>
+          <!--/.Card-->
         </div>
+        <!--Grid column-->
 
-        <div class="col-md-3 col-xs-6">
-            <div class="row box2">1</div>
-            <div class="row box2">2</div>
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <!--Card-->
+          <div class="card">
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="img/Blog Images/img1.jpeg" class="card-img-top" height="200px" alt="" />
+              <a href="" target="_blank">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title">Blog 1</h4>
+              <!--Text-->
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Deleniti recusandae quibusdam temporibus sunt commodi
+                similique! Ullam perspiciatis porro repellat animi ad maxime
+                accusantium, blanditiis culpa doloremque exercitationem
+                delectus voluptatum unde.
+              </p>
+              <a href="" target="_blank" class="btn btn-primary btn-md">Read More
+                <i class="fas fa-play ml-2"></i>
+              </a>
+            </div>
+          </div>
+          <!--/.Card-->
         </div>
-        <div class="col-md-3 col-xs-6">
-            <div class="row box2">3</div>
-            <div class="row box2">4</div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <!--Card-->
+          <div class="card">
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="img/Blog Images/img3.jpeg" class="card-img-top" height="200px" alt="" />
+              <a href="" target="_blank">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title">Blog 2</h4>
+              <!--Text-->
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Deleniti recusandae quibusdam temporibus sunt commodi
+                similique! Ullam perspiciatis porro repellat animi ad maxime
+                accusantium, blanditiis culpa doloremque exercitationem
+                delectus voluptatum unde.
+              </p>
+              <a href="" target="_blank" class="btn btn-primary btn-md">Read More
+                <i class="fas fa-play ml-2"></i>
+              </a>
+            </div>
+          </div>
+          <!--/.Card-->
         </div>
-    </div>
-</div>
-<!-- Main Blog -->
-<div class="container my-5">
-    <div class="row">
-        <div class="col-md-8 col-xs-12">
-            <!-- Section: Blog  -->
-            <section class="my-5">
-                <div class="row">
-                    <div class="col-lg-5 col-xl-4">
-                        <!-- Featured image -->
-                        <div class="">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg"
-                                alt="Sample image" />
-                            <a>
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-7 col-xl-8">
-                        <h3 class="font-weight-bold mb-3">
-                            <strong>Title of the new article</strong>
-                        </h3>
-                        <p class="dark-grey-text">
-                            Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                            nihil impedit quo minus id quod maxime placeat facere
-                            possimus, omnis voluptas assumenda est, omnis dolor
-                            repellendus et aut officiis debitis cum soluta nobis est
-                            eligendi placeat facere aut rerum.
-                        </p>
-                        <p>
-                            by <a class="font-weight-bold">Jessica Clark</a>, 19/04/2018
-                            <a class="btn btn-primary btn-md">Read more</a>
-                        </p>
-                    </div>
-                </div>
-                <hr class="my-5" />
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
 
-                <div class="row">
-                    <div class="col-lg-5 col-xl-4">
-                        <!-- Featured image -->
-                        <div class="">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg"
-                                alt="Sample image" />
-                            <a>
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-7 col-xl-8">
-                        <h3 class="font-weight-bold mb-3">
-                            <strong>Title of the new article</strong>
-                        </h3>
-                        <p class="dark-grey-text">
-                            Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                            nihil impedit quo minus id quod maxime placeat facere
-                            possimus, omnis voluptas assumenda est, omnis dolor
-                            repellendus et aut officiis debitis cum soluta nobis est
-                            eligendi placeat facere aut rerum.
-                        </p>
-                        <p>
-                            by <a class="font-weight-bold">Jessica Clark</a>, 19/04/2018
-                            <a class="btn btn-primary btn-md">Read more</a>
-                        </p>
-                    </div>
-                </div>
-                <hr class="my-5" />
+      <!--Grid row-->
+      <div class="row mb-4 wow fadeIn">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <!--Card-->
+          <div class="card">
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="img/Blog Images/img4.jpeg" class="card-img-top" height="200px" alt="" />
+              <a href="" target="_blank">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
 
-                <div class="row">
-                    <div class="col-lg-5 col-xl-4">
-                        <!-- Featured image -->
-                        <div class="">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg"
-                                alt="Sample image" />
-                            <a>
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-7 col-xl-8">
-                        <h3 class="font-weight-bold mb-3">
-                            <strong>Title of the new article</strong>
-                        </h3>
-                        <p class="dark-grey-text">
-                            Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                            nihil impedit quo minus id quod maxime placeat facere
-                            possimus, omnis voluptas assumenda est, omnis dolor
-                            repellendus et aut officiis debitis cum soluta nobis est
-                            eligendi placeat facere aut rerum.
-                        </p>
-                        <p>
-                            by <a class="font-weight-bold">Jessica Clark</a>, 19/04/2018
-                            <a class="btn btn-primary btn-md">Read more</a>
-                        </p>
-                    </div>
-                </div>
-                <hr class="my-5" />
-
-                <div class="row">
-                    <div class="col-lg-5 col-xl-4">
-                        <!-- Featured image -->
-                        <div class="">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg"
-                                alt="Sample image" />
-                            <a>
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-7 col-xl-8">
-                        <h3 class="font-weight-bold mb-3">
-                            <strong>Title of the new article</strong>
-                        </h3>
-                        <p class="dark-grey-text">
-                            Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                            nihil impedit quo minus id quod maxime placeat facere
-                            possimus, omnis voluptas assumenda est, omnis dolor
-                            repellendus et aut officiis debitis cum soluta nobis est
-                            eligendi placeat facere aut rerum.
-                        </p>
-                        <p>
-                            by <a class="font-weight-bold">Jessica Clark</a>, 19/04/2018
-                            <a class="btn btn-primary btn-md">Read more</a>
-                        </p>
-                    </div>
-                </div>
-                <hr class="my-5" />
-
-                <div class="row">
-                    <div class="col-lg-5 col-xl-4">
-                        <!-- Featured image -->
-                        <div class="">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg"
-                                alt="Sample image" />
-                            <a>
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-7 col-xl-8">
-                        <h3 class="font-weight-bold mb-3">
-                            <strong>Title of the new article</strong>
-                        </h3>
-                        <p class="dark-grey-text">
-                            Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                            nihil impedit quo minus id quod maxime placeat facere
-                            possimus, omnis voluptas assumenda est, omnis dolor
-                            repellendus et aut officiis debitis cum soluta nobis est
-                            eligendi placeat facere aut rerum.
-                        </p>
-                        <p>
-                            by <a class="font-weight-bold">Jessica Clark</a>, 19/04/2018
-                            <a class="btn btn-primary btn-md">Read more</a>
-                        </p>
-                    </div>
-                </div>
-                <hr class="my-5" />
-
-                <div class="row">
-                    <div class="col-lg-5 col-xl-4">
-                        <!-- Featured image -->
-                        <div class="">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg"
-                                alt="Sample image" />
-                            <a>
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-7 col-xl-8">
-                        <h3 class="font-weight-bold mb-3">
-                            <strong>Title of the new article</strong>
-                        </h3>
-                        <p class="dark-grey-text">
-                            Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                            nihil impedit quo minus id quod maxime placeat facere
-                            possimus, omnis voluptas assumenda est, omnis dolor
-                            repellendus et aut officiis debitis cum soluta nobis est
-                            eligendi placeat facere aut rerum.
-                        </p>
-                        <p>
-                            by <a class="font-weight-bold">Jessica Clark</a>, 19/04/2018
-                            <a class="btn btn-primary btn-md">Read more</a>
-                        </p>
-                    </div>
-                </div>
-                <hr class="my-5" />
-
-                <div class="row">
-                    <div class="col-lg-5 col-xl-4">
-                        <!-- Featured image -->
-                        <div class="">
-                            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg"
-                                alt="Sample image" />
-                            <a>
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-7 col-xl-8">
-                        <h3 class="font-weight-bold mb-3">
-                            <strong>Title of the new article</strong>
-                        </h3>
-                        <p class="dark-grey-text">
-                            Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                            nihil impedit quo minus id quod maxime placeat facere
-                            possimus, omnis voluptas assumenda est, omnis dolor
-                            repellendus et aut officiis debitis cum soluta nobis est
-                            eligendi placeat facere aut rerum.
-                        </p>
-                        <p>
-                            by <a class="font-weight-bold">Jessica Clark</a>, 19/04/2018
-                            <a class="btn btn-primary btn-md">Read more</a>
-                        </p>
-                    </div>
-                </div>
-
-
-            </section>
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title">Blog 3</h4>
+              <!--Text-->
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Deleniti recusandae quibusdam temporibus sunt commodi
+                similique! Ullam perspiciatis porro repellat animi ad maxime
+                accusantium, blanditiis culpa doloremque exercitationem
+                delectus voluptatum unde.
+              </p>
+              <a href="" target="_blank" class="btn btn-primary btn-md">Read More
+                <i class="fas fa-play ml-2"></i>
+              </a>
+            </div>
+          </div>
+          <!--/.Card-->
         </div>
+        <!--Grid column-->
 
-        <div class="col-md-4 col-xs-12">
-            <div class="ads box2"></div>
-            <div class="box3"></div>
-            <div class="box3"></div>
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <!--Card-->
+          <div class="card">
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="img/Blog Images/img5.jpeg" class="card-img-top" height="200px" alt="" />
+              <a href="" target="_blank">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title">Blog 4</h4>
+              <!--Text-->
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Deleniti recusandae quibusdam temporibus sunt commodi
+                similique! Ullam perspiciatis porro repellat animi ad maxime
+                accusantium, blanditiis culpa doloremque exercitationem
+                delectus voluptatum unde.
+              </p>
+              <a href="" target="_blank" class="btn btn-primary btn-md">Read More
+                <i class="fas fa-play ml-2"></i>
+              </a>
+            </div>
+          </div>
+          <!--/.Card-->
         </div>
-    </div>
-</div>
+        <!--Grid column-->
 
-<div class="container">
-    <hr>
-</div>
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <!--Card-->
+          <div class="card">
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="img/Blog Images/img7.jpeg" class="card-img-top" height="200px" alt="" />
+              <a href="" target="_blank">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
 
-{%endblock home%}
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title">Blog 5</h4>
+              <!--Text-->
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Deleniti recusandae quibusdam temporibus sunt commodi
+                similique! Ullam perspiciatis porro repellat animi ad maxime
+                accusantium, blanditiis culpa doloremque exercitationem
+                delectus voluptatum unde.
+              </p>
+              <a href="" target="_blank" class="btn btn-primary btn-md">Read More
+                <i class="fas fa-play ml-2"></i>
+              </a>
+            </div>
+          </div>
+          <!--/.Card-->
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+
+      <!--Pagination-->
+      <nav class="d-flex justify-content-center wow fadeIn">
+        <ul class="pagination pg-blue">
+          <!--Arrow left-->
+          <li class="page-item disabled">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+              <span class="sr-only">Previous</span>
+            </a>
+          </li>
+
+          <li class="page-item active">
+            <a class="page-link" href="#">1
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">2</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">3</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">4</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">5</a>
+          </li>
+
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+              <span class="sr-only">Next</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!--Pagination-->
+    </section>
+    <!--Section: Cards-->
+  </div>
+</main>
+<!--Main layout-->
+
+{% endblock home%}
