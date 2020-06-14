@@ -1,5 +1,5 @@
 # Django Blog project for Asif Ikbal startup
-[![alt text](https://github.com/itsmayank0/Asif_Blogs/thumbnail.png "Logo")]
+[![alt text](https://github.com/itsmayank0/Asif_Blogs/thumnail.png "Logo")]
 
 ## Getting started
 
