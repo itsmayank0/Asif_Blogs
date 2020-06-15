@@ -18,7 +18,7 @@
         <p class="mb-4">
           <strong>{{item.banner_description}}</strong>
         </p>
-        <a target="_blank" href="/blogs" class="btn btn-outline-white btn-lg">
+        <a target="_blank" href="/recentblogs" class="btn btn-outline-white btn-lg">
           KNOW MORE
           <i class="fas fa-youtube-play ml-2"></i>
         </a>
@@ -36,13 +36,14 @@
       <div class="row mb-4 wow fadeIn">
         <!--Grid column-->
         {% for post in posts %}
+
         <!--Grid column-->
         <div class="col-lg-4 col-md-6 mb-4">
           <!--Card-->
           <div class="card">
             <!--Card image-->
             <div class="view overlay">
-              <img src="media/{{post.thumbnail}}" class="card-img-top" height="200px" alt="" />
+              <img src="{{post.thumbnail.url}}" class="card-img-top" height="200px" alt="" />
               <a href="" target="_blank">
                 <div class="mask rgba-white-slight"></div>
               </a>
@@ -53,14 +54,14 @@
               <!--Title-->
               <h4 class="card-title">{{post.title}}</h4>
               <!--Text-->
-              <p class="card-text">{{post.overview}}
+              <p class="card-text">{{post.overview | safe}}
               </p>
               {% if post.youtube %}
               <p class="card-text">
                 <strong>5 minutes, a few clicks and... done. You will be
                   surprised at how easy it is.</strong>
-              {% endif %}
-                <a href="/{{post.slug}}" class="btn btn-primary btn-md">Read More
+                {% endif %}
+                <a href="/article/{{post.slug}}" class="btn btn-primary btn-md">Read More
                   <i class="fas fa-play ml-2"></i>
                 </a>
             </div>
