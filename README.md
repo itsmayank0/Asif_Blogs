@@ -1,5 +1,19 @@
 # Django Blog project for Asif Ikbal startup
-![alt text](https://github.com/itsmayank0/Asif_Blogs/blob/master/thumnail.png?raw=true)
+
+## Project features:
+
+` Home: `
+![alt text](https://github.com/itsmayank0/Asif_Blogs/blob/master/thumbnail/Home.png?raw=true)
+
+` Admin Editor support: `
+![alt text](https://github.com/itsmayank0/Asif_Blogs/blob/master/thumbnail/EditorSupport.png?raw=true)
+
+` DisquesIntrigration for comments: `
+![alt text](https://github.com/itsmayank0/Asif_Blogs/blob/master/thumbnail/DisquesIntrigration.png?raw=true)
+
+` PostDetail view: `
+![alt text](https://github.com/itsmayank0/Asif_Blogs/blob/master/thumbnail/PostDetail.png?raw=true)
+
 
 ## Getting started
 
