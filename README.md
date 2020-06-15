@@ -3,16 +3,16 @@
 ## Project features:
 
 ` Home: `
-![alt text](https://github.com/itsmayank0/Asif_Blogs/blob/master/thumbnail/Home.png?raw=true)
+![alt text](https://github.com/itsmayank0/Asif_Blogs/blob/master/Home.png?raw=true)
 
 ` Admin Editor support: `
-![alt text](https://github.com/itsmayank0/Asif_Blogs/blob/master/thumbnail/EditorSupport.png?raw=true)
+![alt text](https://github.com/itsmayank0/Asif_Blogs/blob/master/EditorSupport.png?raw=true)
 
 ` DisquesIntrigration for comments: `
-![alt text](https://github.com/itsmayank0/Asif_Blogs/blob/master/thumbnail/DisquesIntrigration.png?raw=true)
+![alt text](https://github.com/itsmayank0/Asif_Blogs/blob/master/DisquesIntrigration.png?raw=true)
 
 ` PostDetail view: `
-![alt text](https://github.com/itsmayank0/Asif_Blogs/blob/master/thumbnail/PostDetail.png?raw=true)
+![alt text](https://github.com/itsmayank0/Asif_Blogs/blob/master/PostDetail.png?raw=true)
 
 
 ## Getting started
