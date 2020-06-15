@@ -15,7 +15,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core',
-    'Marketing'
+    'Marketing',
+    'tinymce',
 ]
 
 MIDDLEWARE = [
@@ -65,6 +66,7 @@ DATABASES = {
     }
 }
 
+
 if ENVIRONMENT == 'production':
     DEBUG = False
     SECRET_KEY = os.getenv('SECRET_KEY')
@@ -76,3 +78,20 @@ if ENVIRONMENT == 'production':
     SECURE_REDIRECT_EXEMPT = []
     SECURE_SSL_REDIRECT = True
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+# tinymce intrigration
+TINYMCE_JS_URL = os.path.join(
+    STATIC_URL, "js/tinymce/js/tinymce/tinymce.min.js")
+TINYMCE_JS_ROOT = os.path.join(STATIC_URL, "js/tinymce/js/tinymce")
+
+TINYMCE_DEFAULT_CONFIG = {
+    'height': 300,
+    'plugins': "image,imagetools,media,codesample,link,code",
+    'cleanup_on_startup': True,
+    'menubar': False,
+    'toolbar': "styleselect |undo redo | bold italic | alignleft aligncenter alignright | link image media codesample code",
+    'image_caption': True,
+    'image_advtab': True,
+    'custom_undo_redo_levels': 10,
+    'file_browser_callback': "myFileBrowser"
+}
