@@ -6,3 +6,4 @@ pytz
 sqlparse
 pillow
 django
+django-tinymce4-lite
