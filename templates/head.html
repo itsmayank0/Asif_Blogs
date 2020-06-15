@@ -13,5 +13,19 @@
     <link href="{% static 'css/mdb.min.css' %}" rel="stylesheet" />
     <!-- Your custom styles (optional) -->
     <link href="{% static 'css/style.min.css' %}" rel="stylesheet" />
-    
+
+    <style>
+        .over-frame {
+            position: relative;
+        }
+
+        .over-frame .overflow-text {
+            border-left: white solid 12px;
+            background-color: rgba(0, 0, 0, 0.425);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
