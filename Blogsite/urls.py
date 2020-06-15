@@ -5,10 +5,13 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('tinymce/', include('tinymce.urls')),
     path('', include('core.urls')),
-    path('about/', include('core.urls')),
-    path('blog/', include('core.urls')),
-    path('contact/', include('core.urls')),
+    path('aboutUs/', include('core.urls')),
+    path('recentblogs/', include('core.urls')),
+    path('contactUs/', include('core.urls')),
+    path('article/<slug:slug>', include('core.urls')),
+    path('submit/', include('Marketing.urls'))
 ]
 
 if settings.DEBUG:
