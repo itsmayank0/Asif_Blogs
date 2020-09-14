@@ -4,7 +4,7 @@
   
 **Project Live Here: https://asifblogs.azurewebsites.net/**  
 
-**Note: Website may load slower beacuse they are hosted on free tier hosting...**
+**Note: Website speed may be slower beacuse they are hosted on Free Tier...**
 </br>
 
 # 🎨 Project features:
