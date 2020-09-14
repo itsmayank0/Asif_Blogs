@@ -1,23 +1,29 @@
-# Django Blog project for Asif Ikbal startup
+# 🚀 About What this project is??
 
-## Project features:
+<p>This project is based on the real world Startup project for Asif Ikbal(E-solutions pvt. Ltd.)</p>
+  
+**Project Live Here: https://asifblogs.azurewebsites.net/**  
+</br>
 
-# Home:
+# 🎨 Project features:
+
+## Home:
 ![alt text](https://github.com/itsmayank0/Asif_Blogs/blob/master/Home.png?raw=true)
+</br>
 
-# Admin Editor support:
+## Admin Editor support:
 ![alt text](https://github.com/itsmayank0/Asif_Blogs/blob/master/EditorSupport.png?raw=true)
+</br>
 
-# DisquesIntrigration for comments: 
+## DisquesIntrigration for comments: 
 ![alt text](https://github.com/itsmayank0/Asif_Blogs/blob/master/DisquesIntrigration.png?raw=true)
+</br>
 
-# PostDetail view:
+## PostDetail view:
 ![alt text](https://github.com/itsmayank0/Asif_Blogs/blob/master/PostDetail.png?raw=true)
 
 
-## Getting started
-
-Steps:
+# 🔧 Installation Setup:
 
 1. First and Foremost Clone/pull/download this repository.
 2. Install Virtualenv by `pip install virtualenv`
