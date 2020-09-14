@@ -2,16 +2,16 @@
 
 ## Project features:
 
-` Home: `
+# Home:
 ![alt text](https://github.com/itsmayank0/Asif_Blogs/blob/master/Home.png?raw=true)
 
-` Admin Editor support: `
+# Admin Editor support:
 ![alt text](https://github.com/itsmayank0/Asif_Blogs/blob/master/EditorSupport.png?raw=true)
 
-` DisquesIntrigration for comments: `
+# DisquesIntrigration for comments: 
 ![alt text](https://github.com/itsmayank0/Asif_Blogs/blob/master/DisquesIntrigration.png?raw=true)
 
-` PostDetail view: `
+# PostDetail view:
 ![alt text](https://github.com/itsmayank0/Asif_Blogs/blob/master/PostDetail.png?raw=true)
 
 
