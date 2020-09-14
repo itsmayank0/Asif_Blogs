@@ -3,6 +3,8 @@
 <p>This project is based on the real world Startup project for Asif Ikbal(E-solutions pvt. Ltd.)</p>
   
 **Project Live Here: https://asifblogs.azurewebsites.net/**  
+
+**Note: Website may load slower beacuse they are hosted on free tier hosting...**
 </br>
 
 # 🎨 Project features:
